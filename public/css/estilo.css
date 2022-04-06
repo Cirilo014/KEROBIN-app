@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    font-family: 'Times New Roman', Times,  sans-serif;
+    background: url("/img/fundo-abstrato-colorido-macio-textura-aquarela_1035-18958.jpg");
+    background-size: 100%;
+  
+}
+ul{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding: 0px 31px;
+    text-align:left ;
+    
+    
+    
+}
+
+a:hover{
+background-color: rgba(255,255,255,.3);
+transition:.3s;
+
+}
+nav{
+    background-color: rgb(9, 10, 59);
+    height: 60px;
+    
+     
+}
+
+h1{
+    position: absolute;
+    margin-top: 15px;
+    left: 60px;
+    color: rgb(17, 87, 192);
+    text-transform: uppercase;
+}
+ul#ul-inicio{
+
+text-align:right;
+margin: auto;
+left: 740px;
+position: absolute;
+}
+.li-I{
+    line-height: 60px;
+    float: left;
+   font-size: 12pt;
+   list-style: none;
+   margin-left: 10px;
+  
+}
+ul li ul li{
+    background-color:rgb(38, 19, 126);
+    float: none;
+    border-bottom: solid 1px #ccc;
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    list-style: none;
+    text-align: right;
+    padding: 0px 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+
+    
+}
+
+.foto{
+  position:absolute;  
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 5px;  
+}
+.ul-Utentes, .ul-PC, .ul-PA{
+    display: block;
+    font-size: 10pt;
+    border-bottom: solid 1px rgb(87, 84, 84);
+    text-align: left;
+    
+    list-style: none;
+}
+ul li ul{
+padding: 0px;
+text-align: justify;
+
+}
+
+ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+ul li:hover ul{
+    visibility: visible;
+}
+

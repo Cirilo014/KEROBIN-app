@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+  padding: 0;  
+}
+
+body{
+  
+
+background-color: #dddd;
+
+}
+.navbar{
+    padding-bottom: 5px;
+    height: 60px;
+}
+.interface{
+    background-color: aqua;
+    padding: 10px;
+    margin-bottom: 20em;
+    margin-left: 300px;
+ width: 900px;
+}
+.abertura{
+    background-color: rgb(80, 124, 124);
+    padding: 10px;
+    margin-bottom: 2em;
+    
+ width: 900px;
+}
+.info{
+    background-color: rgb(80, 124, 124);
+    padding: 10px;
+    margin-left: 300px;
+    margin-bottom: 20em;
+    
+ width: 900px;
+}
+p {
+	margin: 0;
+	color:black;
+	font-size: 14px;
+	line-height: 2;
+    text-align: justify; 
+}
+

@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+body{
+	background-color: #dddddd;
+}
+footer#rodape{
+	clear: both;
+	border-top: 1px solid rgba(0,0,0,.4); 
+    background-color: rgba(0,0,0,.4);
+    height: 50px;
+
+}
+.fb{
+	width: 22px;
+	height: 22px;
+}
+.tt{
+	width: 25px;
+	height: 25px;
+}
+.nav1{
+    background-color: rgb(9, 10, 59);
+    height: 60px;
+    
+     
+}
+.foto{
+    position:absolute;  
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 5px;  
+  }
+  .cc{
+    position: absolute;
+    margin-top: 15px;
+    left: 60px;
+    color: whitesmoke;
+    text-transform: uppercase;
+
+}
+footer#rodape p{
+	text-align: center;
+}
+aside#lateral{
+	display: block;
+	width: 450px;
+	float: right;
+	/**background-color: #dddddd;*/
+	padding: 2px;
+	margin-top: 5px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+    border-left: 1px solid #606060; ;
+}
+aside#lateral p{
+	font-family: Arial, sans-serif;
+	font-size: 20pt;
+	color: #080707;
+	margin-top: 0px;
+}
+#cabecalho{
+	background-color: #2527ac;
+}
+header#cabecalho{
+	border-bottom: 1px #606060 solid;
+	height: 130px;
+	
+}
+
+.registo{
+    position: absolute;
+    width: 30px; 
+    height: 30px; 
+    right: 75px; 
+    margin-top: 1vmax;
+	color: white;
+}
+.sobre{
+    position: absolute;
+    width: 30px;
+    height: 30px; 
+    right: 10px; 
+    margin-top: 1vmax;
+	color: white;
+}
+.exame{
+	position: absolute;
+    width: 30px;
+    height: 30px; 
+    right: 42px; 
+    margin-top: 1vmax;
+	color: white;
+}
+
+@media screen and (max-width: 300px) {
+	
+}

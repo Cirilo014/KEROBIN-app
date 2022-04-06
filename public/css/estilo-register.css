@@ -1,0 +1,13 @@
+.cont{
+    display: flex;
+    flex-direction: column;
+}
+.div-geral{
+    display: flex;
+   
+    
+}
+
+.geral{
+    width: 10rem;
+}

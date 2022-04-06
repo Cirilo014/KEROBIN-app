@@ -1,0 +1,184 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+    }
+    
+    body{
+    background-image:url("/img/foto.jpg");
+    background-position:50% 70%;
+    color:rgb(0, 0, .4);
+    font-family:Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 85px;
+    position: relative;
+    }
+    
+  nav{
+    background-color: rgb(9, 10, 59);
+    height: 60px;
+    
+     
+}
+    .corpo-form-cad{
+    
+    display: flex;
+    background-position:100% 100%;
+    color:red;
+    font-family: PainterPersonalUseOnly-Br0w;
+    margin-left: 40px;
+    margin-top: 15px;
+   
+    }
+
+    input{
+       
+        height:30px;
+        width:350px;
+        margin:10px;
+        border-radius:8px;
+        border:1px solid white;
+        font-size:12pt;
+        padding:10px 20px;
+        background-color:rgba(255,255,255,0.01);
+        color: rgb(15, 14, 14);
+        outline:none;
+        
+    }
+  
+  
+    
+        
+.cadastro{
+display: flex;
+flex-direction: column;
+margin-top: 20px;;
+
+}
+.cada{
+    display: flex;
+    flex-direction:column;
+    margin-top: 20px;
+    
+}
+.cadas{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 80px;    
+    }
+
+
+    .cidade{
+        display: flex;
+        flex-direction: column;
+        height:50px;
+        width:387px;
+        border-radius:8px;
+        border:1px solid white;
+        font-size:12pt;
+        padding:10px 20px;
+        outline:none;
+        margin-left: .8rem; 
+        }
+
+
+    div.corpo-form h1,div.corpo-form-cad {
+    text-align: center;
+    padding:20px;
+    
+    }
+    
+    a {
+    color:rgb(17, 0, 255);
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    margin-top: .4rem;
+    margin-left: 1rem;
+    font-size: 13pt;
+    }
+    p{
+        color:rgb(17, 0, 255);
+        text-decoration:none;
+        text-align:center;
+        display:block;
+        margin-top: 1rem;
+        margin-right: 1px;
+        font-size: 10pt;
+        }
+    
+    a:hover {
+    text-decoration:underline;
+    text-decoration-color: #203ee7;
+    
+    }
+    
+    input[type=submit]  {
+    background-color:#203ee7;
+    border:none;
+    cursor:pointer;
+    border-radius: 8px;
+    color: white;
+    display: block;
+        height:55px;
+        width: 350px;
+        margin:2px;
+        margin-bottom: 12px;
+        
+    }
+
+    input[type=submit]:hover  {
+        background-color: turquoise;
+        transition: .2s;
+
+        }
+    
+   
+    
+    ::-webkit-input-placeholder {
+    color:rgb(12, 10, 10);
+    }
+    
+    :-moz-placeholder {
+    color:white;
+    }
+    
+    ::-moz-placeholder {
+    color:white;
+    }
+
+    h1{
+    position: absolute;
+    margin-top: 15px;
+    left: 60px;
+    color: whitesmoke;
+    text-transform: uppercase;
+
+}
+p{
+    position: absolute;
+    margin-top: 18px;
+    left: 60px;
+    color: white;
+    text-transform: uppercase;
+    left: 1250px;  
+}
+
+.foto{
+    position:absolute;  
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 5px;  
+  }
+
+  .btn{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+  }
+

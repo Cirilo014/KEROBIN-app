@@ -1,0 +1,134 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+    }
+    
+    body{
+    background-image:url("/img/fundo-abstrato-colorido-macio-textura-aquarela_1035-18958.jpg");
+    background-position:50% 70%;
+    color:rgb(12, 10, 10);
+    font-family:Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 85px;
+    position: relative;
+    }
+    
+  nav{
+    background-color: rgb(9, 10, 59);
+    height: 60px;
+    
+     
+}
+    
+    body div.corpo-form-cad{
+    background-image:url("");
+    background-position:100% 100%;
+    color:red;
+    font-family:PainterPersonalUseOnly-Br0w;
+    }
+    input{
+        display: block;
+        height:55px;
+        width:400px;
+        margin:10px;
+        border-radius:8px;
+        border:1px solid white;
+        font-size:12pt;
+        padding:10px 20px;
+        background-color:rgba(255,255,255,0.01);
+        color: rgb(15, 14, 14);
+        outline:none;
+    }
+    input[type=submit]:hover  {
+        background-color: turquoise;
+        transition: .2s;
+
+        }
+    
+    div.corpo-form {
+    /**background-color:red;**/
+    width:420px;
+    margin:150px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    div.corpo-form-cad {
+    /**background-color:red;**/
+    width:420px;
+    margin:120px auto 0px auto;
+    }
+    div.corpo-form h1,div.corpo-form-cad {
+    text-align: center;
+    padding:20px;
+    
+    }
+    
+    a {
+    color:rgb(17, 0, 255);
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    }
+    p{
+        color:rgb(17, 0, 255);
+        text-decoration:none;
+        text-align:center;
+        display:block;
+        margin-top: 1rem;
+        margin-left: 3rem;
+        }
+    
+    a:hover {
+    text-decoration:underline;
+    text-decoration-color: #203ee7;
+    
+    }
+    
+    input[type=submit]  {
+    background-color:#203ee7;
+    border:none;
+    cursor:pointer;
+    border-radius: 8px;
+    color: white;
+    display: block;
+        height:55px;
+        width: 446px;
+        margin:10px;
+        margin-bottom: 4px;
+    }
+    
+   
+    
+    ::-webkit-input-placeholder {
+    color:rgb(12, 10, 10);
+    }
+    
+    :-moz-placeholder {
+    color:rgb(12, 10, 10);
+    }
+    
+    ::-moz-placeholder {
+    color:rgb(12, 10, 10);
+    }
+    h1{
+    position: absolute;
+    margin-top: 15px;
+    left: 60px;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+ 
+.foto{
+    position:absolute;  
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 5px;  
+  }
+
+    
